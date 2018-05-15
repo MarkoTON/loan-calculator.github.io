@@ -1,7 +1,7 @@
- #loading, #results {
-      display:none;
-    }
-    
+#loading, #results {
+  display:none;
+}
+
 /* Spinner 1 */
 .spinner-1:before {
   content: "";
