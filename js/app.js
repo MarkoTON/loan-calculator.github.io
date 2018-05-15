@@ -79,3 +79,14 @@ function showError(error){
 function clearError(){
   document.querySelector('.alert').remove();
 }
+
+
+
+document.querySelector(".main .container").style.display = "none";
+document.querySelector(".main").classList.add("spinner-1");
+
+// Mimic Server Request
+setTimeout(() => {
+  document.querySelector(".main").classList.remove("spinner-1");
+  document.querySelector(".main .container").style.display = "block";
+}, 1500);
