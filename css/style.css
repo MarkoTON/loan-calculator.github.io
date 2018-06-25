@@ -2,8 +2,8 @@
   display:none;
 }
 
-.mein .container{
-  display: none;
+.container{
+  display: block;
 }
 
 /* Spinner 1 */
